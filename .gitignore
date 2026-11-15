@@ -1,0 +1,28 @@
+# ---- Secrets: never commit these ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# ---- Python-generated files ----
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# ---- Virtual environments ----
+.venv
+venv/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Agent run output (regenerable) ----
+workspace/
+
+# ---- OS / editor cruft ----
+.DS_Store
