@@ -7,10 +7,12 @@ requires-python = ">=3.15"
 dependencies = [
     "deepagents>=0.7.38",
     "langchain>=1.5.0",
+    "langchain-mcp-adapters>=0.3.2",
     "langchain-openai>=1.8.0",
     "langfuse>=5.2.0",
     "langgraph>=1.2.22",
     "langgraph-checkpoint-postgres>=3.2.1",
+    "mcp>=1.28",
     "mermaid-magic>=0.1.4",
     "psycopg[binary,pool]>=3.3.9",
     "pydantic>=2.14.3",
